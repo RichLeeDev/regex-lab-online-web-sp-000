@@ -28,4 +28,4 @@ if phone.scan(/(\d)-(\d)-(\d)/)
   else
   return false
 end
-end
+
