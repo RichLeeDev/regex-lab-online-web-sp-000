@@ -11,10 +11,9 @@ text.grep(/^\w{5}\s/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+text.match(/ /)
 end
 
 def valid_phone_number?(phone)
 number_breakdown = phone.scan(/(\d+)-(\d+)-(\d+))
-end
 end
