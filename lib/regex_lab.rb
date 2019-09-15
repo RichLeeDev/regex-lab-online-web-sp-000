@@ -15,5 +15,5 @@ text.match(/ /)
 end
 
 def valid_phone_number?(phone)
-number_breakdown = phone.scan(/(\d+)-(\d+)-(\d+))
+number_breakdown = phone.scan(/(\d+)-(\d+)-(\d+)/)
 end
